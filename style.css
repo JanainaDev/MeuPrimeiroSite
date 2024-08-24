@@ -1,0 +1,29 @@
+/* Dispositivos extra pequenos(phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .exemplo {
+        background: blueviolet;
+        border: black;
+    }
+}
+
+/* Dispositivos pequenos (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .exemplo {
+        background: green;}
+}
+
+/* Dispositivos médios (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .exemplo {
+        background:red;}
+}
+
+/* Dispositivos grandes (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .exemplo{background: blue;}
+}
+
+/* Dispositivod extra grande (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .exemplo{background: orange;}
+}
